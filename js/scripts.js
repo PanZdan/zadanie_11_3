@@ -18,3 +18,8 @@ var OnePlusOne = new Phone("OnePlus", 1600, "black", 4.9)
 SamsungGalaxyS6.printInfo();
 Iphone6S.printInfo();
 OnePlusOne.printInfo();
+
+Phone.prototype.Inches = function() {
+	console.log("The phone is " + this.brand + " inches is " + this.inches + ".");
+}
+Iphone6S.Inches();
